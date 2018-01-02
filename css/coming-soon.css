@@ -146,19 +146,19 @@ body {
     width: 4rem;
   }
   .social-icons ul > li > a:hover {
-    background-color: #15444d;
+    background-color: #704580;
   }
 }
 
 .btn-secondary {
   background-color: rgba(52, 102, 95, .9);
-  border-color: #1b5a66;
+  border-color: #6f4580;
   height: 3rem;
 }
 
 .btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
   background-color: #15444d !important;
-  border-color: #8ecdb1 !important;
+  border-color: #9d60b3 !important;
 }
 
 .input {
