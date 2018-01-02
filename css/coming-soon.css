@@ -149,7 +149,15 @@ body {
     background-color: #704580;
   }
 }
-
+.email-field{
+    height: 25px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    font-size: 14px;
+    float: left;
+}
 .btn-secondary {
   background-color: rgba(52, 102, 95, .9);
   border-color: #6f4580;

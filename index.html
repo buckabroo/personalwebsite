@@ -40,13 +40,28 @@
                     <table style="width:100%; ">
                         <tr>
                             <td><img src="img\profilepic.jpg" height="150" width="150" align="left" hspace="15"></td>
-                            <td><p> This is my portfolio site for art, code, and other creative projects. Make yourself
+                            <td><p> This is a portfolio site for art, code, and other creative projects. <br><br> Make
+                                yourself
                                 at home!</p></td>
                         </tr>
-                        <td>
-                            <br><p>Contact me at:<br>ekbuckley@unomaha.edu</p>
-                        </td>
                     </table>
+                    <br>
+                    <p>Contact me at:</p>
+                    <p>
+                    <textarea readonly class="email-field text-white" id="email">ekbuckley@unomaha.edu</textarea>
+                    <button onclick="copyFunction()" class="email-field"><img src="img/copy.png" height="20" width="20">
+                    </button>
+                    </p>
+                    <script>
+                        function copyFunction() {
+                            var copyText = document.getElementById("email");
+                            copyText.select();
+                            document.execCommand("Copy");
+                            copyText.selectionEnd = copyText.selectionStart;
+                        }
+                    </script>
+                    </p>
+
 
                 </div>
             </div>
