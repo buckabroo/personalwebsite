@@ -3,8 +3,8 @@
 
   // Vide - Video Background Settings
   $('body').vide({
-    mp4: "mp4/bg.mp4",
-    poster: "img/bg-mobile-fallback.jpg"
+    //mp4: "mp4/bg_tetris.mp4",
+    poster: "img/scenery_sprite.jpg"
   }, {
     posterType: 'jpg'
   });
