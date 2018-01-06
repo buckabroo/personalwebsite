@@ -149,6 +149,9 @@ body {
     background-color: #704580;
   }
 }
+.cell-field{
+    font-size: medium;
+}
 .email-field{
     height: 25px;
     resize: none;
