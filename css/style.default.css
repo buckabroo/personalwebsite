@@ -575,6 +575,8 @@ SIGN UP FORM
     width: 350px;
   }
 }
+
+
 /*
 
 =====================
@@ -586,7 +588,7 @@ SOCIAL LINKS
   margin-bottom: 20px;
 }
 p.social {
-  margin-top: 20px;
+  margin-top: 300px;
 }
 p.social a {
   margin: 0 10px 10px 0;
