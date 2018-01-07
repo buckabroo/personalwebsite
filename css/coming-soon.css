@@ -306,16 +306,8 @@ body {
 .box-masonry .box-masonry-image:hover {
     text-decoration: none;
 }
-.art-page-link{
-    position: center;
-    margin: 0 10px 10px 0;
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    line-height: 40px;
-    font-size: 15px;
-    text-align: center;
-    vertical-align: center;
-    border: solid 1px #999999;
-    color: #999999;
+.link-art{
+    align-items: center;
+    margin-bottom: 20px;
+    background: transparent;
 }
