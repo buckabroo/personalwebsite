@@ -3,10 +3,10 @@
 
   // Vide - Video Background Settings
   $('body').vide({
-    //mp4: "mp4/bg_tetris.mp4",
-    poster: "img/scenery_sprite.jpg"
+    //mp4: "mp4/scenery_sprite.gif",
+    poster: "mp4/scenery_sprite.gif"
   }, {
-    posterType: 'jpg'
+    posterType: 'gif'
   });
 
 })(jQuery); // End of use strict
