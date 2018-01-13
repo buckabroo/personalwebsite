@@ -28,7 +28,7 @@ body {
   position: absolute;
   height: 100%;
   width: 100%;
-  background-color: #5d806e;
+  background-color: rgba(179, 255, 221, 0.3);
   #background-color: transparent;
   opacity: 0.5;
   z-index: -1;
@@ -178,132 +178,13 @@ body {
   font-weight: 300 !important;
   height: 3rem;
 }
+.navbar-nav {
+    font-family: 'Source Sans Pro';
+    display: inline;
+    font-size: large;
+}
 
-.box-masonry {
-    background: #fff;
-    margin-bottom: 30px;
-    position: relative;
-    box-shadow: 0 0 5px #ccc;
-    -webkit-transition: all 0.2s ease-out;
-    -moz-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-.box-masonry h4 {
-    font-size: 16px;
-    line-height: 1.5;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-}
-.box-masonry h4 a {
-    color: #000;
-    border-bottom: solid 1px transparent;
-}
-.box-masonry h4 a:hover {
-    border-bottom: dotted 1px #ef5285;
-    color: #000;
-    text-decoration: none;
-}
-.box-masonry .box-masonry-text {
-    padding: 15px 20px 15px;
-}
-.box-masonry .box-masonry-text p {
-    color: #999999;
-    font-size: 14px;
-}
-.box-masonry .box-masonry-hover-text-header {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    padding: 15px 20px 15px;
-    opacity: 0;
-    -webkit-transition: all 0.2s ease-out;
-    -moz-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out;
-    color: #555555;
-}
-.box-masonry .box-masonry-hover-text-header p {
-    font-size: 14px;
-}
-.box-masonry .box-masonry-hover-text-header h4 a {
-    color: #555555;
-}
-.box-masonry .box-masonry-hover-center {
-    position: absolute;
-    width: 100%;
-    top: 30%;
-    opacity: 0;
-    padding-left: 20px;
-    -webkit-transition: all 0.2s ease-out;
-    -moz-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out;
-    text-align: center;
-}
-.box-masonry .box-masonry-hover-center .see-more-icon {
-    color: #555555;
-    font-size: 50px;
-}
-.box-masonry:hover {
-    box-shadow: 0 0 5px #999;
-}
-.box-masonry:hover .box-masonry-hover-text-header {
-    opacity: 1;
-}
-.box-masonry:hover .box-masonry-hover-center {
-    opacity: 1;
-}
-.box-masonry:hover .box-masonry-image.with-hover-overlay:before {
-    opacity: 0.8;
-}
-.box-masonry:hover .box-masonry-image.with-hover-icon:after {
-    opacity: 0.7;
-}
-.box-masonry h2:last-child,
-.box-masonry p:last-child {
-    margin-bottom: 0;
-}
-.box-masonry .box-masonry-image {
+.navbar-default{
     display: block;
-    position: relative;
-    min-height: 100px;
-    background: #ccc;
-}
-.box-masonry .box-masonry-image.with-hover-overlay:before {
-    display: block;
-    position: absolute;
-    content: " ";
-    background: #fff;
-    opacity: 0;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    -webkit-transition: all 0.2s ease-out;
-    -moz-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out;
-}
-.box-masonry .box-masonry-image.with-hover-icon:after {
-    display: block;
-    position: absolute;
-    width: 100%;
-    left: 0;
-    top: 50%;
-    -webkit-transform: translate(0, -50%);
-    -ms-transform: translate(0, -50%);
-    transform: translate(0, -50%);
-    opacity: 0;
-    -webkit-transition: all 0.2s ease-out;
-    -moz-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out;
-    font-family: 'FontAwesome';
-    content: '\f105';
-    text-align: center;
-    font-size: 50px;
-    color: #555555;
-}
-.box-masonry .box-masonry-image:hover {
-    text-decoration: none;
+    background-color: rgba(89, 4, 128, 0.6);
 }
