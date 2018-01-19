@@ -182,9 +182,11 @@ body {
     font-family: 'Source Sans Pro';
     display: inline;
     font-size: larger;
+    text-align: center;
 }
 
 .navbar-default{
     display: block;
     background-color: rgba(89, 4, 128, 0.6);
+    text-align: center;
 }
