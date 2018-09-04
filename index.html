@@ -20,21 +20,11 @@
     <link href="vendor/font-awesome/css/font-awesome.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/coming-soon.css" rel="stylesheet">
-
+    <link href="assets/css/coming-soon.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
-
-<body style="overflow: hidden">
-
+<body style="overflow: -moz-scrollbars-vertical">
 <div class="overlay"></div>
-<nav class="navbar navbar-default">
-    <ul class="nav navbar-nav">
-        <li class="active" style="display: inline-block; margin-right: 5%"><a href="index.html" style="color: white; display: inline-block"><strong>Home</strong></a></li>
-        <li style="display: inline-block; margin-right: 5%"><a href="art.html" style="color: white; display: inline-block"><strong>Art</strong></a></li>
-        <li style="display: inline-block; margin-right: 5%"><a href="code.html" style="color: white; display: inline-block"><strong>Code</strong></a></li>
-        <li style="display: inline-block;"><a href="acm-w.html" style="color: white; display: inline-block"><strong>ACM-W</strong></a></li>
-    </ul>
-</nav>
 <div class="masthead">
     <div class="masthead-bg"></div>
     <div class="container h-100">
@@ -45,7 +35,7 @@
                     <p class="mb-2"><strong>Hey, I'm Emma Buckley. </strong></p>
                     <table style="width:100%;">
                         <tr>
-                            <td class="cell-field"><img src="img\profilepic.jpg" height="150" width="150"
+                            <td class="cell-field"><img src="assets\img\profilepic.jpg" height="150" width="150"
                                                         align="left"
                                                         hspace="15"></td>
                             <td class="cell-field">This is a portfolio site for art, code, and other creative
@@ -59,7 +49,7 @@
                     <p>
                         <textarea readonly class="email-field text-white" cols="26"
                                   id="email">emmabuck1025@gmail.com</textarea>
-                        <button onclick="copyFunction()" class="email-field"><img src="img/copy.png" height="20"
+                        <button onclick="copyFunction()" class="email-field"><img src="assets/img/copy.png" height="20"
                                                                                   width="20">
                         </button>
                     </p>
@@ -69,7 +59,6 @@
                             copyText.select();
                             document.execCommand("Copy");
                             copyText.selectionEnd = copyText.selectionStart;
-                            alert("emmabuck@1025@gmail.com copied to clipboard");
                         }
                     </script>
                     </p>
@@ -78,7 +67,6 @@
         </div>
     </div>
 </div>
-
 <div class="social-icons">
     <ul class="list-unstyled text-center mb-0">
         <li class="list-unstyled-item">
@@ -98,6 +86,8 @@
         </li>
     </ul>
 </div>
+<div style="height: 100vmin; background-color: #91ccb0;">
+</div>
 
 
 <!-- Bootstrap core JavaScript -->
@@ -108,8 +98,13 @@
 <script src="vendor/vide/jquery.vide.js"></script>
 
 <!-- Custom scripts for this template -->
-<script src="js/coming-soon.js"></script>
+<script src="assets/js/coming-soon.js"></script>
 
 </body>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 
 </html>

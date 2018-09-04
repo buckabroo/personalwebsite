@@ -26,6 +26,7 @@
     "url": "https://github.com/BlackrockDigital/startbootstrap-coming-soon.git"
   },
   "dependencies": {
+    "aos": "^2.3.2",
     "bootstrap": "^4.0.0-beta.2",
     "font-awesome": "4.7.0",
     "jquery": "^3.2.1",
