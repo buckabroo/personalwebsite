@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
+﻿<html lang="en">
 <head>
 
     <meta charset="utf-8">
@@ -13,113 +11,109 @@
     <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i"
-          rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i"
-          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
     <link href="vendor/font-awesome/css/font-awesome.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="assets/css/coming-soon.css" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
-<body style="overflow: hidden">
-<div class="overlay"></div>
-<nav class="navbar navbar-default">
-    <ul class="nav navbar-nav">
-        <li class="active" style="display: inline-block; margin-right: 5%"><a href="index.html"
-                                                                              style="color: white; display: inline-block"><strong>Home</strong></a>
-        </li>
-        <li style="display: inline-block; margin-right: 5%"><a href="art.html"
-                                                               style="color: white; display: inline-block"><strong>Art</strong></a>
-        </li>
-        <li style="display: inline-block; margin-right: 5%"><a href="code.html"
-                                                               style="color: white; display: inline-block"><strong>Code</strong></a>
-        </li>
-        <li style="display: inline-block;"><a href="acm-w.html" style="color: white; display: inline-block"><strong>ACM-W</strong></a>
-        </li>
-    </ul>
-</nav>
-<div class="masthead">
-    <div class="masthead-bg"></div>
-    <div class="container h-100">
-        <div class="row h-100">
-            <div class="col-12 my-auto">
-                <div class="masthead-content text-white py-5 py-md-0">
-                    <h1>Welcome!</h1>
-                    <p class="mb-2"><strong>Hey, I'm Emma Buckley. </strong></p>
-                    <table style="width:100%;">
-                        <tr>
-                            <td class="cell-field"><img src="assets/img/profilepic.jpg" height="150" width="150"
-                                                        align="left"
-                                                        hspace="15"></td>
-                            <td class="cell-field">This is a portfolio site for art, code, and other creative
-                                projects.<br><br>
-                                I'm a Computer Science student at the University of Nebraska at Omaha.
-                            </td>
-                        </tr>
-                    </table>
-                    <br><br><br><br>
-                    <p>Contact me at:</p>
-                    <p>
-                        <textarea readonly class="email-field text-white" cols="26"
-                                  id="email">emmabuck1025@gmail.com</textarea>
-                        <button onclick="copyFunction()" class="email-field"><img src="assets/img/copy.png" height="20"
-                                                                                  width="20">
-                        </button>
-                    </p>
-                    <script>
-                        function copyFunction() {
-                            var copyText = document.getElementById("email");
-                            copyText.select();
-                            document.execCommand("Copy");
-                            copyText.selectionEnd = copyText.selectionStart;
-                        }
-                    </script>
-                    </p>
+<body style="overflow: hidden" data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
+    <div style="position: absolute; z-index: -1; top: 0px; left: 0px; bottom: 0px; right: 0px; overflow: hidden; background-size: cover; background-color: transparent; background-repeat: no-repeat; background-position: 50% 50%; background-image: url(&quot;mp4/scenery_sprite.gif&quot;);"><video autoplay="" loop="" muted="" style="margin: auto; position: absolute; z-index: -1; top: 50%; left: 50%; transform: translate(-50%, -50%); visibility: hidden; opacity: 0; width: auto; height: 724px;"></video></div>
+    <div class="overlay"></div>
+    <nav class="navbar navbar-default">
+        <ul class="nav navbar-nav">
+            <li class="active" style="display: inline-block; margin-right: 5%">
+                <a href="index.html" style="color: white; display: inline-block"><strong>Home</strong></a>
+            </li>
+
+            <li style="display: inline-block; margin-right: 5%">
+                <a href="code.html" style="color: white; display: inline-block"><strong>Projects</strong></a>
+            </li>
+            <li style="display: inline-block;">
+                <a href="acm-w.html" style="color: white; display: inline-block"><strong>Community Involvement</strong></a>
+            </li>
+        </ul>
+    </nav>
+    <div class="masthead">
+        <div class="masthead-bg"></div>
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="col-12 my-auto">
+                    <div class="masthead-content text-white py-5 py-md-0">
+                        <h1>Welcome!</h1>
+                        <p class="mb-2"><strong>Hey, I'm Emma Buckley. </strong></p>
+                        <table style="width:100%;">
+                            <tbody>
+                                <tr>
+                                    <td class="cell-field"><img src="assets/img/profilepic.jpg" height="150" width="150" align="left" hspace="15"></td>
+                                    <td class="cell-field">
+                                        This is a portfolio site for code and other creative
+                                        projects.<br><br>
+                                        I'm a junior software engineer at Netsmart Technologies in Overland Park, Kansas.
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <br><br><br><br>
+                        <p>Contact me at:</p>
+                        <p>
+                            <textarea readonly="" class="email-field text-white" cols="26" id="email">emmabuck1025@gmail.com</textarea>
+                            <button onclick="copyFunction()" class="email-field">
+                                <img src="assets/img/copy.png" height="20" width="20">
+                            </button>
+                        </p>
+                        <script>
+                            function copyFunction() {
+                                var copyText = document.getElementById("email");
+                                copyText.select();
+                                document.execCommand("Copy");
+                                copyText.selectionEnd = copyText.selectionStart;
+                            }
+                        </script>
+                        <p></p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<div class="social-icons">
-    <ul class="list-unstyled text-center mb-0">
-        <li class="list-unstyled-item">
-            <a href="https://github.com/buckabroo" target="_blank">
-                <i class="fa fa-github"></i>
-            </a>
-        </li>
-        <li class="list-unstyled-item">
-            <a href="https://www.linkedin.com/in/emma-buckley-a93aa714b/" target="_blank">
-                <i class="fa fa-linkedin"></i>
-            </a>
-        </li>
-        <li class="list-unstyled-item">
-            <a href="https://www.instagram.com/buckabroo/" target="_blank">
-                <i class="fa fa-instagram"></i>
-            </a>
-        </li>
-    </ul>
-</div>
-<div style="height: 100vmin; background-color: #91ccb0;">
-</div>
+    <div class="social-icons">
+        <ul class="list-unstyled text-center mb-0">
+            <li class="list-unstyled-item">
+                <a href="https://github.com/buckabroo" target="_blank">
+                    <i class="fa fa-github"></i>
+                </a>
+            </li>
+
+            <li class="list-unstyled-item">
+                <a href="https://www.linkedin.com/in/emma-buckley-a93aa714b/" target="_blank">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div style="height: 100vmin; background-color: #91ccb0;">
+    </div>
 
 
-<!-- Bootstrap core JavaScript -->
-<script src="vendor/jquery/jquery.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.bundle.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.js"></script>
 
-<!-- Plugin JavaScript -->
-<script src="vendor/vide/jquery.vide.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/vide/jquery.vide.js"></script>
 
-<!-- Custom scripts for this template -->
-<script src="assets/js/coming-soon.js"></script>
+    <!-- Custom scripts for this template -->
+    <script src="assets/js/coming-soon.js"></script>
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 
 </body>
-
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-    AOS.init();
-</script>
-
 </html>
